@@ -25,3 +25,7 @@ jobs:
         run: python scripts/validate_case.py examples/industrial-compressor-case.json
       - name: Score synthetic case
         run: python scripts/score_opportunity.py examples/industrial-compressor-case.json
+      - name: Build Markdown report
+        run: python scripts/build_report.py examples/industrial-compressor-case.json --output /tmp/positioning-report.md
+      - name: Verify report output
+        run: test -s /tmp/positioning-report.md
