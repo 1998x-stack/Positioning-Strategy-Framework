@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from validate_case import validate
 from score_opportunity import calculate, band, WEIGHTS
+from build_report import build
 
 
 class FrameworkTests(unittest.TestCase):
@@ -45,6 +46,12 @@ class FrameworkTests(unittest.TestCase):
     def test_score_band(self):
         self.assertEqual(band(4.5), "Priority for validation; hard gates still apply")
         self.assertEqual(band(2.0), "Do not prioritize at this stage")
+
+    def test_report_keeps_evidence_and_counter_evidence(self):
+        report = build(self.data)
+        self.assertIn("Claims and evidence", report)
+        self.assertIn("Counter-evidence", report)
+        self.assertIn("SYNTHETIC", report)
 
 
 if __name__ == "__main__":
