@@ -1,0 +1,9 @@
+[project]
+name = "positioning-strategy-framework"
+version = "0.1.0"
+description = "Evidence-led positioning strategy research toolkit and Agent Skill"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.unittest]
+start-directory = "tests"

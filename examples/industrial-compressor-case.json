@@ -1,0 +1,84 @@
+{
+  "case_id": "EX-001",
+  "brand": "Northstar Air Systems (fictional)",
+  "category": "Industrial compressed-air systems",
+  "target_audience": "Mid-sized factories with continuous or high-utilization production lines",
+  "competitive_frame": "Energy-efficient rotary screw air-compressor solutions",
+  "current_position": "Illustrative assumption: perceived as a capable but undifferentiated mid-market equipment supplier.",
+  "desired_position": "A lifecycle energy-cost specialist for factories where compressed air is a material operating expense.",
+  "point_of_difference": "A measured lifecycle-cost program combining equipment selection, commissioning, leak audits, and ongoing optimization.",
+  "reasons_to_believe": [
+    "Synthetic example only: assume independently checked energy-consumption measurements are available.",
+    "Synthetic example only: assume service teams can perform commissioning and periodic leak audits.",
+    "Synthetic example only: assume a documented spare-parts and response-time program exists."
+  ],
+  "opportunity_score": {
+    "relevance": 5,
+    "differentiation": 4,
+    "credibility": 3,
+    "strategic_fit": 4,
+    "economics": 4,
+    "defensibility": 3,
+    "execution": 3
+  },
+  "hard_gates": [
+    "Do not scale until energy-savings claims are measured under comparable operating conditions.",
+    "Do not use a payback guarantee without contract terms and verified baseline data."
+  ],
+  "sources": [
+    {
+      "source_id": "EX-SYN-01",
+      "title": "Fabricated factory interview note for demonstration",
+      "url": null,
+      "source_type": "synthetic",
+      "grade": "D",
+      "synthetic": true,
+      "limitations": ["Not a real interview", "Not market evidence"]
+    },
+    {
+      "source_id": "EX-SYN-02",
+      "title": "Fabricated compressor energy audit record for demonstration",
+      "url": null,
+      "source_type": "synthetic",
+      "grade": "D",
+      "synthetic": true,
+      "limitations": ["No real equipment or customer data", "Not suitable for performance claims"]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "EX-CLM-01",
+      "claim": "Some high-utilization factories may value verified lifecycle energy cost more than the lowest purchase price.",
+      "source_ids": ["EX-SYN-01"],
+      "evidence_grade": "D",
+      "attribution_grade": "D",
+      "period": null,
+      "limitations": ["Hypothesis only", "Requires real customer research"]
+    },
+    {
+      "claim_id": "EX-CLM-02",
+      "claim": "A combined equipment and service offer could create a more defensible difference than a specification-only message.",
+      "source_ids": ["EX-SYN-02"],
+      "evidence_grade": "D",
+      "attribution_grade": "D",
+      "period": null,
+      "limitations": ["Illustrative strategy hypothesis", "No real performance validation"]
+    }
+  ],
+  "counter_evidence": [
+    "Customers may prioritize purchase price or procurement rules over lifecycle cost.",
+    "Energy savings may depend more on factory operations and maintenance discipline than supplier equipment.",
+    "Competitors may copy audits and service bundles quickly.",
+    "Service intensity may erode margins if route density is low."
+  ],
+  "unknowns": [
+    "Actual segment size and willingness to pay.",
+    "Measured energy savings under matched operating conditions.",
+    "Service cost per installed unit and renewal rate.",
+    "Competitor proof and customer switching costs."
+  ],
+  "notes": [
+    "Entire case is fictional and exists only to demonstrate the data structure.",
+    "Do not cite this example as evidence about any real manufacturer."
+  ]
+}
